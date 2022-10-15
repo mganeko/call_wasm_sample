@@ -52,6 +52,16 @@ node call_wasm_timeout.js
 
 42
 
+## exec with Deno
+
+```
+deno run --allow-read call_wasm_deno.js
+```
+
+== Result of wasm func ==
+
+42
+
 ## To build wasm module
 
 - [Zig](https://ziglang.org/) is required to build wasm module.
