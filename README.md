@@ -46,6 +46,7 @@ node call_wasm_timeout.js
 ```
 
 == Result of wasm func ==
+
 42
 
 ## To build wasm module
