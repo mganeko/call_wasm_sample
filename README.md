@@ -15,6 +15,9 @@ bun run call_wasm.js
 
 --> With bun 0.1.13, result is unstable. No result sometimes.
 
+- related issue
+  - Bun not waiting for callback in some cases [#1189](https://github.com/oven-sh/bun/issues/1189)
+
 
 #### (2) With timeout
 
