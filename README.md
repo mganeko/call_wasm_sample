@@ -29,6 +29,16 @@ bun run call_wasm_timeout.js
 
 42
 
+#### (3) With async/await
+
+```
+bun run call_wasm_async.mjs
+```
+
+== Result of wasm func ==
+
+42
+
 
 ### exec with Node.js
 
@@ -46,6 +56,16 @@ node call_wasm.js
 
 ```
 node call_wasm_timeout.js
+```
+
+== Result of wasm func ==
+
+42
+
+#### (3) With async/await
+
+```
+node call_wasm_async.mjs
 ```
 
 == Result of wasm func ==
