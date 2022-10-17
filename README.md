@@ -72,10 +72,22 @@ node call_wasm_async.mjs
 
 42
 
-## exec with Deno
+### exec with Deno
+
+#### (1) Simple
 
 ```
 deno run --allow-read call_wasm_deno.js
+```
+
+== Result of wasm func ==
+
+42
+
+#### (3) With async/await
+
+```
+deno run --allow-read call_wasm_async_deno.js
 ```
 
 == Result of wasm func ==
