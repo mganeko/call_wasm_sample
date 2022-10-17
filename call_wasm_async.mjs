@@ -1,10 +1,10 @@
-// call_wasm_asunc.mjs
+// call_wasm_async.mjs
 //
 // exec with node.js
-//   $ node call_wasm_asunc.mjs
+//   $ node call_wasm_async.mjs
 //
 // exec with bun
-//   $ bun run call_wasm_asunc.mjs
+//   $ bun run call_wasm_async.mjs
 //  
 
 import fs from "fs";
