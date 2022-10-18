@@ -20,6 +20,7 @@
     "bun",
     "WebAssembly"
   ],
+  "dependencies": {},
   "author": "mganeko",
   "license": "MIT",
   "bugs": {
