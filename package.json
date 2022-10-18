@@ -1,0 +1,29 @@
+{
+  "name": "call_wasm_sample",
+  "version": "1.0.0",
+  "description": "simple example for calling WASM from bun/node.js",
+  "main": "call_wasm_async.js",
+  "scripts": {
+    "start": "node call_wasm_async.mjs",
+    "async": "node call_wasm_async.mjs",
+    "simple": "node call_wasm.js",
+    "timeout": "node call_wasm_timeout.js",
+    "build": "sh build_func.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mganeko/call_wasm_sample.git"
+  },
+  "keywords": [
+    "node.js",
+    "bun",
+    "WebAssembly"
+  ],
+  "author": "mganeko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mganeko/call_wasm_sample/issues"
+  },
+  "homepage": "https://github.com/mganeko/call_wasm_sample#readme"
+}
