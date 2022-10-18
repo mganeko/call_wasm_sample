@@ -6,7 +6,7 @@
 
 const content = await Deno.readFile("./func.wasm");
 
-console.warn("-- start loading wasm --")
+console.warn("-- start compiling wasm --")
 
 WebAssembly.compile(content)
   .then((module) => {

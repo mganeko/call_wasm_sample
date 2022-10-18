@@ -10,7 +10,7 @@
 const fs = require("fs");
 const content = fs.readFileSync("./func.wasm");
 
-console.warn("-- start loading wasm --")
+console.warn("-- start compiling wasm --")
 
 WebAssembly.compile(content)
   .then((module) => {
