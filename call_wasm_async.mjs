@@ -23,7 +23,7 @@ const lib = new WebAssembly.Instance(module, {
 }).exports;
 console.warn("-- wasm instance ready. lib:", lib);
 
-// call func
+// --- call func ---
 console.warn("== Result of wasm func ==");
 const ret = lib.func();
 console.log(ret); // 42

@@ -20,7 +20,7 @@ WebAssembly.compile(content)
     }).exports;
     console.warn("-- wasm instance ready. lib:", lib);
 
-    // call func
+    // --- call func ---
     console.warn("== Result of wasm func ==");
     const ret = lib.func();
     console.log(ret); // 42
@@ -29,7 +29,7 @@ WebAssembly.compile(content)
     console.error("ERROR:", e);
   });
 
-
+// --- wait for WebAssembly.compile() ---
 setTimeout(function() {
   console.warn("timeout ..");
 }, 100);
